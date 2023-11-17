@@ -1,0 +1,7 @@
+{
+  "name": "ProyectoFigmaIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
