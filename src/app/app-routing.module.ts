@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'pagina2',
     loadChildren: () => import('./chat/pagina2/pagina2.module').then( m => m.Pagina2PageModule)
   },
+  {
+    path: 'busqueda',
+    loadChildren: () => import('./busqueda/busqueda.module').then( m => m.BusquedaPageModule)
+  },
 ];
 
 @NgModule({
